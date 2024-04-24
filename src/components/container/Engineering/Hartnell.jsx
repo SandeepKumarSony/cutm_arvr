@@ -1,13 +1,15 @@
+
+
 import React from 'react'
 
-const MotorcycleExhaust = () => {
+const Hartnill = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://exhaustmodel.vercel.app/"
-            title="MotorcycleExhaust"
+            src="https://hartnell.vercel.app/"
+            title="Alternator"
             className='h-screen w-full'
-           // style={{ width: "500px", height: "400px" }}
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
@@ -18,4 +20,4 @@ const MotorcycleExhaust = () => {
   )
 }
 
-export default MotorcycleExhaust
+export default Hartnill

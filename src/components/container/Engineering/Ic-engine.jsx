@@ -1,13 +1,13 @@
 import React from 'react'
 
-const MotorcycleExhaust = () => {
+const Icengine = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://exhaustmodel.vercel.app/"
-            title="MotorcycleExhaust"
+            src="https://hydraulic-brake.vercel.app/"
+            title="DieselEngine"
             className='h-screen w-full'
-           // style={{ width: "500px", height: "400px" }}
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
@@ -18,4 +18,4 @@ const MotorcycleExhaust = () => {
   )
 }
 
-export default MotorcycleExhaust
+export default Icengine

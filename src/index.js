@@ -96,6 +96,16 @@ import Alternator from "./components/container/Engineering/Alternator";
 import Camshaft from "./components/container/Engineering/Camshaft";
 import Car from "./components/container/Engineering/Car";
 import LSUDryer from "./components/container/Engineering/LSUDryer";
+import Airsuspenson from "./components/container/Engineering/Airsuspenson";
+import DiffertialSystem from "./components/container/Engineering/DiffertialSystem";
+import AirCompressor from "./components/container/Engineering/AirCompressor12";
+import Audrino from "./components/container/Engineering/Audrino";
+import Brutuallty from "./components/container/Engineering/Brutuallty";
+import Hartnill from "./components/container/Engineering/Hartnell";
+import HelicalSuspenson from "./components/container/Engineering/Helical-suspenson";
+import HydraulicBrake from "./components/container/Engineering/Hydraulic-brake";
+import Icengine from "./components/container/Engineering/Ic-engine";
+import SlidingMeshgearBox from "./components/container/Engineering/SlidingmeshGearBox";
 
 
 
@@ -904,6 +914,99 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/suspenson"
+  element={
+    <Protected>
+      <Airsuspenson/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/dif"
+  element={
+    <Protected>
+      <DiffertialSystem/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/aircom"
+  element={
+    <Protected>
+      <AirCompressor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/audrino"
+  element={
+    <Protected>
+      <Audrino/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/brutual"
+  element={
+    <Protected>
+      <Brutuallty/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hartnill"
+  element={
+    <Protected>
+      <Hartnill/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/helical"
+  element={
+    <Protected>
+      <HelicalSuspenson/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hydbrake"
+  element={
+    <Protected>
+      <HydraulicBrake/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ic"
+  element={
+    <Protected>
+      <Icengine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/slidingmesh"
+  element={
+    <Protected>
+      <SlidingMeshgearBox/>
+    </Protected>
+  }
+/>
+
+
 
 
 
