@@ -106,6 +106,20 @@ import HelicalSuspenson from "./components/container/Engineering/Helical-suspens
 import HydraulicBrake from "./components/container/Engineering/Hydraulic-brake";
 import Icengine from "./components/container/Engineering/Ic-engine";
 import SlidingMeshgearBox from "./components/container/Engineering/SlidingmeshGearBox";
+import ThreeDPrinter from "./components/container/Engineering/Threedprinter";
+import CncLathe from "./components/container/Engineering/CncLathe";
+import CncTurner from "./components/container/Engineering/CncTurner";
+import Cpu from "./components/container/Engineering/Cpu";
+import CpuCooler from "./components/container/Engineering/CpuCooler";
+import GraphicsCard from "./components/container/Engineering/GraphicsCard";
+import MotherBoard from "./components/container/Engineering/MotherBoard";
+import Ram from "./components/container/Engineering/Ram";
+import Cctv from "./components/container/Engineering/Cctv";
+import Laptop from "./components/container/Engineering/Laptop";
+import Tv from "./components/container/Engineering/Television";
+import BuckConverter from "./components/container/Engineering/BuckConverter";
+import WalkiTaki from "./components/container/Engineering/WalkiTalki";
+import BananaPi from "./components/container/Engineering/Bananapi";
 
 
 
@@ -1005,6 +1019,133 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/3dprinter"
+  element={
+    <Protected>
+      <ThreeDPrinter/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cnclathe"
+  element={
+    <Protected>
+      <CncLathe/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cncturner"
+  element={
+    <Protected>
+      <CncTurner/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cpu"
+  element={
+    <Protected>
+      <Cpu/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cpucooler"
+  element={
+    <Protected>
+      <CpuCooler/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/graphicscard"
+  element={
+    <Protected>
+      <GraphicsCard/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/motherboard"
+  element={
+    <Protected>
+      <MotherBoard/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ram"
+  element={
+    <Protected>
+      <Ram/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cctv"
+  element={
+    <Protected>
+      <Cctv/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/laptop"
+  element={
+    <Protected>
+      <Laptop/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/tv"
+  element={
+    <Protected>
+      <Tv/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/buckconverter"
+  element={
+    <Protected>
+      <BuckConverter/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/walkitalki"
+  element={
+    <Protected>
+      <WalkiTaki/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/banana"
+  element={
+    <Protected>
+      <BananaPi/>
+    </Protected>
+  }
+/>
+
 
 
 
