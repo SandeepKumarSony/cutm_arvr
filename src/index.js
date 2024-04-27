@@ -120,6 +120,8 @@ import Tv from "./components/container/Engineering/Television";
 import BuckConverter from "./components/container/Engineering/BuckConverter";
 import WalkiTaki from "./components/container/Engineering/WalkiTalki";
 import BananaPi from "./components/container/Engineering/Bananapi";
+import Spinal from "./components/container/Human-Spinal-System";
+import Cardio from "./components/container/Cardiovascular_System";
 
 
 
@@ -1146,6 +1148,24 @@ root.render(
   }
 />
 
+<Route
+  path="/spinal"
+  element={
+    <Protected>
+      <Spinal/>
+    </Protected>
+  }
+/>
+
+
+<Route
+  path="/cardio"
+  element={
+    <Protected>
+      <Cardio/>
+    </Protected>
+  }
+/>
 
 
 

@@ -14,6 +14,9 @@ import digestiveimg from "../../../assets/cardimages/digestive.gif";
 import dentalimg from "../../../assets/cardimages/dental.gif";
 import earimg from "../../../assets/cardimages/ear.gif";
 import cellimg from "../../../assets/cardimages/cell.gif";
+import spinalImage from "../../../assets/cardimages/200w.gif";
+import cardioImage from "../../../assets/cardimages/cardio.gif";
+
 
 const HumanAnatomy = (props) => {
   return (
@@ -200,6 +203,7 @@ const HumanAnatomy = (props) => {
         </div>
 
         <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
+
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
             <img src={earimg} className="h-32 w-full" alt="" />
             <div className="p-3">
@@ -213,6 +217,7 @@ const HumanAnatomy = (props) => {
               </span>
             </Link>
           </div>
+
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
             <img src={cellimg} className="h-32 w-full" alt="" />
             <div className="p-3">
@@ -226,6 +231,37 @@ const HumanAnatomy = (props) => {
               </span>
             </Link>
           </div>
+
+          
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={spinalImage} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+                Human Spinal System
+              </h5>
+            </div>
+            <Link to="/spinal" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={cardioImage} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Cardiovascular System
+              </h5>
+            </div>
+            <Link to="/cardio" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+
         </div>
       </div>
     </>
