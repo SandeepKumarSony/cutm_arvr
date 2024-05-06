@@ -122,6 +122,7 @@ import WalkiTaki from "./components/container/Engineering/WalkiTalki";
 import BananaPi from "./components/container/Engineering/Bananapi";
 import Spinal from "./components/container/Human-Spinal-System";
 import Cardio from "./components/container/Cardiovascular_System";
+import HorseSkeleton from "./components/container/HorseSkeleton";
 
 
 
@@ -1163,6 +1164,15 @@ root.render(
   element={
     <Protected>
       <Cardio/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/horseskeleton"
+  element={
+    <Protected>
+      <HorseSkeleton/>
     </Protected>
   }
 />
