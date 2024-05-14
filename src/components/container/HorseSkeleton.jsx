@@ -4,7 +4,7 @@ const HorseSkeleton = () => {
     return (
         <div className='flex justify-center items-center h-screen'>
             <iframe
-                src="https://humanear1-qp85rd5fw-centurion1.vercel.app/"
+                src="https://horse-skeletal-system.vercel.app/"
                 title="HorseSkeleton"
                 style={{ width: "1000px", height: "700px" }}
                 allowfullscreen="true"
