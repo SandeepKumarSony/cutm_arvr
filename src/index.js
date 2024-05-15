@@ -124,6 +124,9 @@ import Spinal from "./components/container/Human-Spinal-System";
 import Cardio from "./components/container/Cardiovascular_System";
 import HorseSkeleton from "./components/container/HorseSkeleton";
 import LymphaticSystem from "./components/container/LymphaticSystem";
+import AirConditionor from "./components/container/Engineering/AirConditionor";
+import DcPowerSupply from "./components/container/Engineering/DcPowerSupply";
+import WaterCooler from "./components/container/Engineering/WaterCooler";
 
 
 
@@ -1183,6 +1186,33 @@ root.render(
   element={
     <Protected>
       <LymphaticSystem/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/airconditioner"
+  element={
+    <Protected>
+      <AirConditionor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/dcpowersupply"
+  element={
+    <Protected>
+      <DcPowerSupply/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/watercooler"
+  element={
+    <Protected>
+      <WaterCooler/>
     </Protected>
   }
 />

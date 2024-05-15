@@ -1429,24 +1429,53 @@ const Engineering = () => {
 </Link>
 </div>
 
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+   AirConditionor
+  </h5>
+</div>
+<Link to="/airconditionor" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+   DC Regulated PowerSupply
+  </h5>
+</div>
+<Link to="/dcpowersupply" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+   Water Cooler
+  </h5>
+</div>
+<Link to="/watercooler" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
 </div>
 
 {/* ----------------------------------------------------------------------------------------------------------- */}
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
