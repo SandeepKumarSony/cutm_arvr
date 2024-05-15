@@ -6,7 +6,8 @@ const HearAnatomy = () => {
             <iframe
                 src="https://hunam-heart.vercel.app/"
                 title="Heart"
-                style={{ width: "500px", height: "400px" }}
+                className='h-screen w-full'
+                //style={{ width: "500px", height: "400px" }}
                 allowfullscreen="true"
                 webkitallowfullscreen="true"
                 mozallowfullscreen="true"

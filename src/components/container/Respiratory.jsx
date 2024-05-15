@@ -7,7 +7,8 @@ const Respiratory = () => {
       <iframe
         src="https://human-respiratorysystem1.vercel.app/"
         title="Respiratory"
-        style={{ width: "500px", height: "400px" }}
+        className='h-screen w-full'
+        //style={{ width: "500px", height: "400px" }}
         allowfullscreen="true"
         webkitallowfullscreen="true"
         mozallowfullscreen="true"
