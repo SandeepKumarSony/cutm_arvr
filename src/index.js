@@ -123,6 +123,7 @@ import BananaPi from "./components/container/Engineering/Bananapi";
 import Spinal from "./components/container/Human-Spinal-System";
 import Cardio from "./components/container/Cardiovascular_System";
 import HorseSkeleton from "./components/container/HorseSkeleton";
+import LymphaticSystem from "./components/container/LymphaticSystem";
 
 
 
@@ -1177,6 +1178,14 @@ root.render(
   }
 />
 
+<Route
+  path="/lymphaticsystem"
+  element={
+    <Protected>
+      <LymphaticSystem/>
+    </Protected>
+  }
+/>
 
 
 
