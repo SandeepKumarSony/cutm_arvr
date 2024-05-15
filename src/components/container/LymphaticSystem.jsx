@@ -2,9 +2,10 @@ import React from 'react'
 
 const LymphaticSystem = () => {
     return (
-        <div className='flex justify-center items-center h-screen'> <iframe
+        <div className='flex justify-center items-center h-screen'> 
+        <iframe
             src="https://human-lymphaticsystem.vercel.app/"
-            title="Ear"
+            title="LymphaticSystem"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
