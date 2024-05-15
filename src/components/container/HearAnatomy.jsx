@@ -4,7 +4,7 @@ const HearAnatomy = () => {
     return (
         <div className='flex justify-center items-center h-screen'>
             <iframe
-                src="https://humanheart.vercel.app/"
+                src="https://hunam-heart.vercel.app/"
                 title="Heart"
                 style={{ width: "500px", height: "400px" }}
                 allowfullscreen="true"

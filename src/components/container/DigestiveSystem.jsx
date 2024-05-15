@@ -5,7 +5,7 @@ const DigestiveSystem = () => {
         <div className='flex justify-center items-center h-screen'>
 
             <iframe
-                src="https://humandigestivesystem.vercel.app/"
+                src="https://human-digestivesystem.vercel.app/"
                 title="Digestive"
                 style={{ width: "500px", height: "400px" }}
                 allowfullscreen="true"

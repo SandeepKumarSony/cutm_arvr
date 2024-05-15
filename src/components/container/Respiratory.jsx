@@ -5,7 +5,7 @@ const Respiratory = () => {
     <div className="flex justify-center items-center h-screen">
       {" "}
       <iframe
-        src="https://humanrespiratory.vercel.app/"
+        src="https://human-respiratorysystem1.vercel.app/"
         title="Respiratory"
         style={{ width: "500px", height: "400px" }}
         allowfullscreen="true"
