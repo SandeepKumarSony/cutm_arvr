@@ -61,7 +61,31 @@ import  mc from "../../../assets/cardimages/mc.gif";
 import  alternator from "../../../assets/cardimages/alternator.gif";
 import  cams from "../../../assets/cardimages/cams.gif";
 import  carsteering from "../../../assets/cardimages/carsteering.png";
-import suspensonImage from "../../../assets/cardimages/air suspension.jpg"
+import suspensonImage from "../../../assets/cardimages/air suspension.jpg";
+import  dprinter from "../../../assets/cardimages/dprinter.gif";
+import vaircompressor from "../../../assets/cardimages/vaircompressor.gif";
+import aircon from "../../../assets/cardimages/aircon.gif";
+import  bananapi from "../../../assets/cardimages/bananapi.gif";
+import  brutaldiyl from "../../../assets/cardimages/brutaldiyl.gif";
+import  cctv from "../../../assets/cardimages/cctv.gif";
+import  cnclathe from "../../../assets/cardimages/cnclathe.gif";
+import  cpu from "../../../assets/cardimages/cpu.gif";
+import  cpucooler from "../../../assets/cardimages/cpucooler.gif";
+import  differentialsystem from "../../../assets/cardimages/differentialsystem.gif";
+import  graphicscard from "../../../assets/cardimages/graphicscard.gif";
+import  helicalsus from "../../../assets/cardimages/helicalsus.gif";
+import  hydraulicb from "../../../assets/cardimages/hydraulicb.gif";
+import  laptop from "../../../assets/cardimages/laptop.gif";
+import  motherboard from "../../../assets/cardimages/motherboard.gif";
+import  ram from "../../../assets/cardimages/ram.gif";
+import  slidingmeshg from "../../../assets/cardimages/slidingmeshg.gif";
+import  tv from "../../../assets/cardimages/tv.gif";
+import  walkietal from "../../../assets/cardimages/walkietal.gif";
+import  watercooler from "../../../assets/cardimages/watercooler.gif";
+
+
+
+
 
 
 
@@ -1060,7 +1084,7 @@ const Engineering = () => {
 
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={differentialsystem} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Differential systen
@@ -1112,7 +1136,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={brutaldiyl} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Brutal 
@@ -1140,7 +1164,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={helicalsus} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Helical Suspenson
@@ -1163,7 +1187,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={hydraulicb} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Hydraulic Brake
@@ -1191,7 +1215,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={slidingmeshg} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Sliding mesh gear box
@@ -1205,7 +1229,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={dprinter} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    3d printer
@@ -1230,7 +1254,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={cnclathe} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Cnclathe
@@ -1258,7 +1282,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={cpu} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Cpu
@@ -1272,7 +1296,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={cpucooler} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Cpu-Cooler
@@ -1292,7 +1316,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={graphicscard} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Graphics Card
@@ -1306,7 +1330,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={motherboard} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Mother Board
@@ -1320,7 +1344,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={ram} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Ram
@@ -1334,7 +1358,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={cctv} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    CCTV
@@ -1353,7 +1377,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={laptop} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Laptop
@@ -1367,7 +1391,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={tv} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Television
@@ -1396,7 +1420,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={walkietal} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Walkie Talkie
@@ -1416,7 +1440,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={bananapi} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Banana pi BPS_MS
@@ -1430,7 +1454,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={aircon} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    AirConditionor
@@ -1458,7 +1482,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={watercooler} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Water Cooler
