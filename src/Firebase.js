@@ -7,13 +7,12 @@ import {getAuth} from "firebase/auth"
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAlJoy0KB_9wXOb_yqkWzdtZV95ZAZzpiQ",
-  authDomain: "cutmlearning3d.firebaseapp.com",
-  projectId: "cutmlearning3d",
-  storageBucket: "cutmlearning3d.appspot.com",
-  messagingSenderId: "131276411494",
-  appId: "1:131276411494:web:ef74cfb6d75eeef942d3a7",
-  measurementId: "G-45N8PYD8HM"
+  apiKey: "AIzaSyBfUxFfWjP4fabhz61w8Z6tvlKfeoWcjh8",
+  authDomain: "arvr-78838.firebaseapp.com",
+  projectId: "arvr-78838",
+  storageBucket: "arvr-78838.appspot.com",
+  messagingSenderId: "855346863643",
+  appId: "1:855346863643:web:82616339b4751808abe2be"
 };
 
 // Initialize Firebase
