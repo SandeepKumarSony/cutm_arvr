@@ -127,6 +127,8 @@ import LymphaticSystem from "./components/container/LymphaticSystem";
 import AirConditionor from "./components/container/Engineering/AirConditionor";
 import DcPowerSupply from "./components/container/Engineering/DcPowerSupply";
 import WaterCooler from "./components/container/Engineering/WaterCooler";
+import Multimeter from "./components/container/Engineering/Multimeter";
+import Oscilloscope from "./components/container/Engineering/Oscilloscope";
 
 
 
@@ -1213,6 +1215,24 @@ root.render(
   element={
     <Protected>
       <WaterCooler/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/multimeter"
+  element={
+    <Protected>
+      <Multimeter/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/oscilloscope"
+  element={
+    <Protected>
+      <Oscilloscope/>
     </Protected>
   }
 />
