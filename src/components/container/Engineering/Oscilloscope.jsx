@@ -6,7 +6,8 @@ const Oscilloscope = () => {
         <iframe
             src="https://oscilloscope.vercel.app/"
             title="Oscilloscope"
-            style={{ width: "500px", height: "400px" }}
+            className='h-screen w-full'
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"

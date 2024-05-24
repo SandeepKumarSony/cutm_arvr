@@ -63,7 +63,7 @@ import  cams from "../../../assets/cardimages/cams.gif";
 import  carsteering from "../../../assets/cardimages/carsteering.png";
 import suspensonImage from "../../../assets/cardimages/air suspension.jpg";
 import  dprinter from "../../../assets/cardimages/dprinter.gif";
-import vaircompressor from "../../../assets/cardimages/vaircompressor.gif";
+//import vaircompressor from "../../../assets/cardimages/vaircompressor.gif";
 import aircon from "../../../assets/cardimages/aircon.gif";
 import  bananapi from "../../../assets/cardimages/bananapi.gif";
 import  brutaldiyl from "../../../assets/cardimages/brutaldiyl.gif";
