@@ -129,6 +129,13 @@ import DcPowerSupply from "./components/container/Engineering/DcPowerSupply";
 import WaterCooler from "./components/container/Engineering/WaterCooler";
 import Multimeter from "./components/container/Engineering/Multimeter";
 import Oscilloscope from "./components/container/Engineering/Oscilloscope";
+import AtmMachine from "./components/container/Engineering/AtmMachine";
+import HumanBrain from "./components/container/HumanBrain";
+import AnprcRadio from "./components/container/Engineering/AnprcRadio";
+import CornSheller from "./components/container/Engineering/CornSheller";
+import MicroLathe from "./components/container/Engineering/MicroLathe";
+import PlasticWaste from "./components/container/Engineering/PlasticWaste";
+import RicePeeler from "./components/container/Engineering/RicePeeler";
 
 
 
@@ -1237,9 +1244,68 @@ root.render(
   }
 />
 
+<Route
+  path="/atmmachine"
+  element={
+    <Protected>
+      <AtmMachine/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/humanbrain"
+  element={
+    <Protected>
+      <HumanBrain/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/anprcradio"
+  element={
+    <Protected>
+      <AnprcRadio/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/cornsheller"
+  element={
+    <Protected>
+      <CornSheller/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/microlathe"
+  element={
+    <Protected>
+      <MicroLathe/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/plasticwaste"
+  element={
+    <Protected>
+      <PlasticWaste/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ricepeeler"
+  element={
+    <Protected>
+      <RicePeeler/>
+    </Protected>
+  }
+/>
 
 
 
