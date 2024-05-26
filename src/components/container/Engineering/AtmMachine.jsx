@@ -6,7 +6,8 @@ const AtmMachine = () => {
         <iframe
             src="https://atm-machine-iota.vercel.app/"
             title="Atm Machine"
-            style={{ width: "500px", height: "400px" }}
+            className='h-screen w-full'
+            //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
