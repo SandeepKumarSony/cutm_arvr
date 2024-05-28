@@ -136,6 +136,9 @@ import CornSheller from "./components/container/Engineering/CornSheller";
 import MicroLathe from "./components/container/Engineering/MicroLathe";
 import PlasticWaste from "./components/container/Engineering/PlasticWaste";
 import RicePeeler from "./components/container/Engineering/RicePeeler";
+import Concretemixture from "./components/container/Engineering/Concretemixture";
+import MiniaturecircuitB from "./components/container/Engineering/MiniaturecircuitB";
+import GasolineG from "./components/container/Engineering/GasolineG";
 
 
 
@@ -1055,10 +1058,10 @@ root.render(
 />
 
 <Route
-  path="/cncturner"
+  path="/concretemixer"
   element={
     <Protected>
-      <CncTurner/>
+      <Concretemixture/>
     </Protected>
   }
 />
@@ -1306,6 +1309,42 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/mcb"
+  element={
+    <Protected>
+      <MiniaturecircuitB/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/gasolineg"
+  element={
+    <Protected>
+      <GasolineG/>
+    </Protected>
+  }
+/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

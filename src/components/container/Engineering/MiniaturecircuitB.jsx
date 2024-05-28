@@ -1,11 +1,11 @@
 import React from 'react'
 
-const DcPowerSupply = () => {
+const MiniaturecircuitB = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://dcpowersupply-iejb.vercel.app/"
-            title="DC Regulated PowerSupply"
+            src="https://miniaturecircuit-breaker.vercel.app/"
+            title="MiniaturecircuitB"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
@@ -18,4 +18,4 @@ const DcPowerSupply = () => {
   )
 }
 
-export default DcPowerSupply
+export default MiniaturecircuitB
