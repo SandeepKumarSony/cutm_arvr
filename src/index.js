@@ -108,7 +108,6 @@ import Icengine from "./components/container/Engineering/Ic-engine";
 import SlidingMeshgearBox from "./components/container/Engineering/SlidingmeshGearBox";
 import ThreeDPrinter from "./components/container/Engineering/Threedprinter";
 import CncLathe from "./components/container/Engineering/CncLathe";
-import CncTurner from "./components/container/Engineering/CncTurner";
 import Cpu from "./components/container/Engineering/Cpu";
 import CpuCooler from "./components/container/Engineering/CpuCooler";
 import GraphicsCard from "./components/container/Engineering/GraphicsCard";
