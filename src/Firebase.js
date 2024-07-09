@@ -5,15 +5,10 @@ import {getAuth} from "firebase/auth"
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyBfUxFfWjP4fabhz61w8Z6tvlKfeoWcjh8",
-  authDomain: "arvr-78838.firebaseapp.com",
-  projectId: "arvr-78838",
-  storageBucket: "arvr-78838.appspot.com",
-  messagingSenderId: "855346863643",
-  appId: "1:855346863643:web:82616339b4751808abe2be"
-};
+  // `googleUser` from the onsuccess Google Sign In callback.
+  //  googUser = gapi.auth2.getAuthInstance().currentUser.get();
+  const credential = GoogleAuthProvider.credential(googleUser.getAuthResponse().id_token);
+  const result = await signInWithCredential(auth, credential);
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
