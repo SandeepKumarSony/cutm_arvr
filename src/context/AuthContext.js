@@ -12,10 +12,14 @@ const AuthContext = createContext();
 export const AuthContextProvider = ({ children }) => {
   const [user, setUser] = useState({});
 
-  const googleSignIn = () => {
-    const provider = new GoogleAuthProvider();
+  const googleSignIn = async () => {
+    // const provider = new GoogleAuthProvider();
 
-    signInWithRedirect(auth, provider)
+    // signInWithRedirect(auth, provider)
+      // `googleUser` from the onsuccess Google Sign In callback.
+  //  googUser = gapi.auth2.getAuthInstance().currentUser.get();
+  const credential = GoogleAuthProvider.credential(googleUser.getAuthResponse().id_token);
+  const result = await signInWithCredential(auth, credential);
   };
 
   const logOut = () => {
