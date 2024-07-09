@@ -3,6 +3,8 @@ import {
   GoogleAuthProvider,
   signInWithRedirect,
   signOut,
+  googleUser,
+  signInWithCredential,
   onAuthStateChanged,
 } from 'firebase/auth';
 import { auth } from '../Firebase';
