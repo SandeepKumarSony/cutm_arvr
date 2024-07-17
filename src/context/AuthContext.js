@@ -4,6 +4,7 @@ import {
   signInWithRedirect,
   signOut,
   onAuthStateChanged,
+  signInWithPopup,
 } from 'firebase/auth';
 import { auth } from '../Firebase';
 
@@ -14,8 +15,8 @@ export const AuthContextProvider = ({ children }) => {
 
   const googleSignIn = () => {
     const provider = new GoogleAuthProvider();
-
-    signInWithRedirect(auth, provider)
+// const userCred = await getRedirectResult(auth);
+     signInWithPopup(auth, provider);
   };
 
   const logOut = () => {
