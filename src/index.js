@@ -138,6 +138,13 @@ import RicePeeler from "./components/container/Engineering/RicePeeler";
 import Concretemixture from "./components/container/Engineering/Concretemixture";
 import MiniaturecircuitB from "./components/container/Engineering/MiniaturecircuitB";
 import GasolineG from "./components/container/Engineering/GasolineG";
+import OceanGate from "./components/container/Engineering/Oceangate";
+import BailingMachine from "./components/container/Engineering/BailingMachine";
+import Bombatyphoon from "./components/container/Engineering/Bombatyphoon";
+import PlanetaryGearbox from "./components/container/Engineering/PlanetaryGearbox";
+import LadaAluminiumFront from "./components/container/Engineering/LadaAluminiumFront";
+import MetalLED from "./components/container/Engineering/MetalLED";
+import RibbonMixer from "./components/container/Engineering/RibbonMixer";
 
 
 
@@ -1327,6 +1334,77 @@ root.render(
   }
 />
 
+<Route
+  path="/Oceangate"
+  element={
+    <Protected>
+      <OceanGate/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/BailingMachine"
+  element={
+    <Protected>
+      <BailingMachine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Bombatyphoon"
+  element={
+    <Protected>
+      <Bombatyphoon/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/plangear"
+  element={
+    <Protected>
+      <PlanetaryGearbox/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/aluminium"
+  element={
+    <Protected>
+      <LadaAluminiumFront/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/metalLED"
+  element={
+    <Protected>
+      <MetalLED/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/raspb"
+  element={
+    <Protected>
+      <RaspberryPI/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ribbon"
+  element={
+    <Protected>
+      <RibbonMixer/>
+    </Protected>
+  }
+/>
 
 
 
