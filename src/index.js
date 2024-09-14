@@ -146,6 +146,11 @@ import LadaAluminiumFront from "./components/container/Engineering/LadaAluminium
 import MetalLED from "./components/container/Engineering/MetalLED";
 import RibbonMixer from "./components/container/Engineering/RibbonMixer";
 import RaspberryPI from "./components/container/Engineering/RaspberryPI";
+import Excavator from "./components/container/Engineering/Excavator";
+import ElectricLinear from "./components/container/Engineering/ElectricLinear";
+import Artyz7 from "./components/container/Engineering/Artyz7";
+import GearSpeed from "./components/container/Engineering/GearSpeed";
+import BluetoothPCB from "./components/container/Engineering/BluetoothPCB";
 
 
 
@@ -1407,6 +1412,50 @@ root.render(
   }
 />
 
+<Route
+  path="/excavator"
+  element={
+    <Protected>
+      <Excavator/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/electricl"
+  element={
+    <Protected>
+      <ElectricLinear/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/arty"
+  element={
+    <Protected>
+      <Artyz7/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/gears"
+  element={
+    <Protected>
+      <GearSpeed/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/bpcb"
+  element={
+    <Protected>
+      <BluetoothPCB/>
+    </Protected>
+  }
+/>
 
 
 
