@@ -1,6 +1,6 @@
 import React from 'react'
 
-BluetoothPCB = () => {
+const BluetoothPCB = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe

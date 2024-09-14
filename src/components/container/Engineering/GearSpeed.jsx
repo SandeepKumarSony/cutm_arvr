@@ -1,6 +1,6 @@
 import React from 'react'
 
-constGearSpeed = () => {
+const GearSpeed = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
