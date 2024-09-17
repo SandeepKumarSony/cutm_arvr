@@ -151,6 +151,14 @@ import ElectricLinear from "./components/container/Engineering/ElectricLinear";
 import Artyz7 from "./components/container/Engineering/Artyz7";
 import GearSpeed from "./components/container/Engineering/GearSpeed";
 import BluetoothPCB from "./components/container/Engineering/BluetoothPCB";
+import Aliexpress from "./components/container/Engineering/Aliexpress";
+import BTSpindel from "./components/container/Engineering/BTSpindel";
+import CNCMACHINE from "./components/container/Engineering/CNCMACHINE";
+import MRrockerengine from "./components/container/Engineering/MRrockerengine";
+import NovaBot from "./components/container/Engineering/NovaBot";
+import PackardMerlin from "./components/container/Engineering/PackardMerlin";
+import Resistor from "./components/container/Engineering/Resistor";
+import RoboticManipulator from "./components/container/Engineering/RoboticManipulator";
 
 
 
@@ -1457,8 +1465,77 @@ root.render(
   }
 />
 
+<Route
+  path="/bt30"
+  element={
+    <Protected>
+      <Aliexpress/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/bts"
+  element={
+    <Protected>
+      <BTSpindel/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/cnm"
+  element={
+    <Protected>
+      <CNCMACHINE/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/rengine"
+  element={
+    <Protected>
+      <MRrockerengine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/novab"
+  element={
+    <Protected>
+      <NovaBot/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/packard"
+  element={
+    <Protected>
+      <PackardMerlin/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/resist"
+  element={
+    <Protected>
+      <Resistor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/roma"
+  element={
+    <Protected>
+      <RoboticManipulator/>
+    </Protected>
+  }
+/>
 
 
 
