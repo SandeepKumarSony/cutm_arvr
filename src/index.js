@@ -159,6 +159,11 @@ import NovaBot from "./components/container/Engineering/NovaBot";
 import PackardMerlin from "./components/container/Engineering/PackardMerlin";
 import Resistor from "./components/container/Engineering/Resistor";
 import RoboticManipulator from "./components/container/Engineering/RoboticManipulator";
+import AirGripper from "./components/container/Engineering/AirGripper";
+import ButterflyValve from "./components/container/Engineering/ButterflyValve";
+import HydraulicBottleJack from "./components/container/Engineering/HydraulicBottleJack";
+import HydraulicPress from "./components/container/Engineering/HydraulicPress";
+import LatheTailStock from "./components/container/Engineering/LatheTailStock";
 
 
 
@@ -1537,6 +1542,50 @@ root.render(
   }
 />
 
+<Route
+  path="/airg"
+  element={
+    <Protected>
+      <AirGripper/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/butterv"
+  element={
+    <Protected>
+      <ButterflyValve/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hbj"
+  element={
+    <Protected>
+      <HydraulicBottleJack/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hpress"
+  element={
+    <Protected>
+      <HydraulicPress/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ltail"
+  element={
+    <Protected>
+      <LatheTailStock/>
+    </Protected>
+  }
+/>
 
 
 
