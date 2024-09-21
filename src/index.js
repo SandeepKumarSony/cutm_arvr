@@ -164,6 +164,17 @@ import ButterflyValve from "./components/container/Engineering/ButterflyValve";
 import HydraulicBottleJack from "./components/container/Engineering/HydraulicBottleJack";
 import HydraulicPress from "./components/container/Engineering/HydraulicPress";
 import LatheTailStock from "./components/container/Engineering/LatheTailStock";
+import AmmoniaOil from "./components/container/Engineering/AmmoniaOil";
+import Amplifier from "./components/container/Engineering/Amplifier";
+import DcMotor from "./components/container/Engineering/DcMotor";
+import JetEngine from "./components/container/Engineering/JetEngine";
+import MetalBending from "./components/container/Engineering/MetalBending";
+import ResinPrinter from "./components/container/Engineering/ResinPrinter";
+import StillsonWrench from "./components/container/Engineering/StillsonWrench";
+import SyringeDispenser from "./components/container/Engineering/SyringeDispenser";
+import UniversalJoint from "./components/container/Engineering/UniversalJoint";
+import RegulatingGasFlow from "./components/container/Engineering/RegulatingGasFlow";
+import YDESP32 from "./components/container/Engineering/YDESP32";
 
 
 
@@ -1583,6 +1594,105 @@ root.render(
   element={
     <Protected>
       <LatheTailStock/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Aoil"
+  element={
+    <Protected>
+      <AmmoniaOil/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ampli"
+  element={
+    <Protected>
+      <Amplifier/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/dcm"
+  element={
+    <Protected>
+      <DcMotor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/jete"
+  element={
+    <Protected>
+      <JetEngine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/metalB"
+  element={
+    <Protected>
+      <MetalBending/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/resin"
+  element={
+    <Protected>
+      <ResinPrinter/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/sw"
+  element={
+    <Protected>
+      <StillsonWrench/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/syringe"
+  element={
+    <Protected>
+      <SyringeDispenser/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ujoint"
+  element={
+    <Protected>
+      <UniversalJoint/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/vfrgf"
+  element={
+    <Protected>
+      <RegulatingGasFlow/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/yd"
+  element={
+    <Protected>
+      <YDESP32/>
     </Protected>
   }
 />
