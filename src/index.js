@@ -175,6 +175,13 @@ import SyringeDispenser from "./components/container/Engineering/SyringeDispense
 import UniversalJoint from "./components/container/Engineering/UniversalJoint";
 import RegulatingGasFlow from "./components/container/Engineering/RegulatingGasFlow";
 import YDESP32 from "./components/container/Engineering/YDESP32";
+import KamikazeDrone from "./components/container/Engineering/KamikazeDrone";
+import MaecoomHotend from "./components/container/Engineering/MaecoomHotend";
+import OpticalLimitSwitch from "./components/container/Engineering/OpticalLimitSwitch";
+import QuadRotorWankelEngine from "./components/container/Engineering/QuadRotorWankelEngine";
+import SectionValve from "./components/container/Engineering/SectionValve";
+import WindTurbine from "./components/container/Engineering/WindTurbine";
+import WishboneSuspension from "./components/container/Engineering/WishboneSuspension";
 
 
 
@@ -1697,6 +1704,68 @@ root.render(
   }
 />
 
+<Route
+  path="/KD"
+  element={
+    <Protected>
+      <KamikazeDrone/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/maecoom"
+  element={
+    <Protected>
+      <MaecoomHotend/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/opticalL"
+  element={
+    <Protected>
+      <OpticalLimitSwitch/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/quadr"
+  element={
+    <Protected>
+      <QuadRotorWankelEngine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Svalve"
+  element={
+    <Protected>
+      <SectionValve/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/wturbine"
+  element={
+    <Protected>
+      <WindTurbine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/wishbone"
+  element={
+    <Protected>
+      <WishboneSuspension/>
+    </Protected>
+  }
+/>
 
 
 
