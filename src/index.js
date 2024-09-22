@@ -193,6 +193,10 @@ import VerticalFarming from "./components/container/Engineering/VerticalFarming"
 import MechanicalPencil from "./components/container/Engineering/MechanicalPencil";
 import TorpedoTube from "./components/container/Engineering/TorpedoTube";
 import USBConnector from "./components/container/Engineering/USBConnector";
+import RadialCooler from "./components/container/Engineering/RadialCooler";
+import LiquidRocketEngine from "./components/container/Engineering/LiquidRocketEngine";
+import PotentiometerModule from "./components/container/Engineering/PotentiometerModule";
+import ZynqBerryZeroModule from "./components/container/Engineering/ZynqBerryZeroModule";
 
 
 
@@ -1877,6 +1881,41 @@ root.render(
   }
 />
 
+<Route
+  path="/radialcool"
+  element={
+    <Protected>
+      <RadialCooler/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/liquidrocket"
+  element={
+    <Protected>
+      <LiquidRocketEngine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/pModule"
+  element={
+    <Protected>
+      <PotentiometerModule/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/zynqb"
+  element={
+    <Protected>
+      <ZynqBerryZeroModule/>
+    </Protected>
+  }
+/>
 
 
 
