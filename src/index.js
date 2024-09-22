@@ -182,6 +182,17 @@ import QuadRotorWankelEngine from "./components/container/Engineering/QuadRotorW
 import SectionValve from "./components/container/Engineering/SectionValve";
 import WindTurbine from "./components/container/Engineering/WindTurbine";
 import WishboneSuspension from "./components/container/Engineering/WishboneSuspension";
+import Basys from "./components/container/Engineering/Basys";
+import CarJack from "./components/container/Engineering/CarJack";
+import CutOffSaw from "./components/container/Engineering/CutOffSaw";
+import LandingMechanism from "./components/container/Engineering/LandingMechanism";
+import GateValve from "./components/container/Engineering/GateValve";
+import HC_04 from "./components/container/Engineering/HC_04";
+import HydraulicSwivelClamp from "./components/container/Engineering/HydraulicSwivelClamp";
+import VerticalFarming from "./components/container/Engineering/VerticalFarming";
+import MechanicalPencil from "./components/container/Engineering/MechanicalPencil";
+import TorpedoTube from "./components/container/Engineering/TorpedoTube";
+import USBConnector from "./components/container/Engineering/USBConnector";
 
 
 
@@ -1767,6 +1778,104 @@ root.render(
   }
 />
 
+<Route
+  path="/basys"
+  element={
+    <Protected>
+      <Basys/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/carjack"
+  element={
+    <Protected>
+      <CarJack/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cos"
+  element={
+    <Protected>
+      <CutOffSaw/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/landingmech"
+  element={
+    <Protected>
+      <LandingMechanism/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/gatev"
+  element={
+    <Protected>
+      <GateValve/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hc04"
+  element={
+    <Protected>
+      <HC_04/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hsclamp"
+  element={
+    <Protected>
+      <HydraulicSwivelClamp/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/verticalf"
+  element={
+    <Protected>
+      <VerticalFarming/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/mpencil"
+  element={
+    <Protected>
+      <MechanicalPencil/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ttube"
+  element={
+    <Protected>
+      <TorpedoTube/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/usbc"
+  element={
+    <Protected>
+      <USBConnector/>
+    </Protected>
+  }
+/>
 
 
 
