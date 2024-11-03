@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PotentiometerModule = () => {
+const PlanetaryGearSystem = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://potentiometer.vercel.app/"
-            title="Potentio Meter Module"
+            src="https://planetary-gear-system.vercel.app/"
+            title="Planetary Gear System"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
@@ -18,4 +18,4 @@ const PotentiometerModule = () => {
   )
 }
 
-export default PotentiometerModule
+export default PlanetaryGearSystem

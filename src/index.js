@@ -197,6 +197,15 @@ import RadialCooler from "./components/container/Engineering/RadialCooler";
 import LiquidRocketEngine from "./components/container/Engineering/LiquidRocketEngine";
 import PotentiometerModule from "./components/container/Engineering/PotentiometerModule";
 import ZynqBerryZeroModule from "./components/container/Engineering/ZynqBerryZeroModule";
+import DB9_Connector from "./components/container/Engineering/DB9_Connector";
+import DisplayST from "./components/container/Engineering/DisplayST";
+import MicroMetalLathe from "./components/container/Engineering/MicroMetalLathe";
+import MicroSdCardHolder from "./components/container/Engineering/MicroSdCardHolder";
+import MiniatureVerticalSystemEngine from "./components/container/Engineering/MiniatureVerticalSystemEngine";
+import PlanetaryGearSystem from "./components/container/Engineering/PlanetaryGearSystem";
+import RaspberryPICamera from "./components/container/Engineering/RaspberryPICamera";
+import SeedStudioXiaoEsp from "./components/container/Engineering/SeedStudioXiaoEsp";
+import WirelessGamingMouse from "./components/container/Engineering/WirelessGamingMouse";
 
 
 
@@ -470,6 +479,78 @@ root.render(
             element={
               <Protected>
                 <RouterModel />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/db9"
+            element={
+              <Protected>
+                <DB9_Connector />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/displayst"
+            element={
+              <Protected>
+                <DisplayST />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/MMlathe"
+            element={
+              <Protected>
+                <MicroMetalLathe />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/SDcard"
+            element={
+              <Protected>
+                <MicroSdCardHolder />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/mvse"
+            element={
+              <Protected>
+                <MiniatureVerticalSystemEngine />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/planetarygear"
+            element={
+              <Protected>
+                <PlanetaryGearSystem />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Picamera"
+            element={
+              <Protected>
+                <RaspberryPICamera />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/xiaoesp"
+            element={
+              <Protected>
+                <SeedStudioXiaoEsp />
               </Protected>
             }
           />
@@ -1917,6 +1998,14 @@ root.render(
   }
 />
 
+<Route
+  path="/Gmouse"
+  element={
+    <Protected>
+      <WirelessGamingMouse/>
+    </Protected>
+  }
+/>
 
 
 

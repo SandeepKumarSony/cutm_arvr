@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PotentiometerModule = () => {
+const SeedStudioXiaoEsp = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://potentiometer.vercel.app/"
-            title="Potentio Meter Module"
+            src="https://seed-studio-xiao-esp-32-c3.vercel.app/"
+            title="Seed Studio Xiao Esp32-C3"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
@@ -18,4 +18,4 @@ const PotentiometerModule = () => {
   )
 }
 
-export default PotentiometerModule
+export default SeedStudioXiaoEsp

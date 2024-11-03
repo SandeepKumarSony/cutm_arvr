@@ -173,6 +173,128 @@ const Engineering = () => {
           </div>
         </div>
 
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center">
+
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={microusb} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+    DB9 Connector Male
+  </h5>
+</div>
+<Link to="/db9" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={dewalt} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+    Display ST7789V2
+  </h5>
+</div>
+<Link to="/displayst" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={drill} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+    Micro Metal Lathe
+  </h5>
+</div>
+<Link to="/MMlathe" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={arduinonano} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+    Micro SD Card And Holder
+  </h5>
+</div>
+<Link to="/SDcard" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+</div> 
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={molecule} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+                Miniature Vertical System Engine
+              </h5>
+            </div>
+            <Link to="/mvse" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={drone} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Planetary Gear System
+              </h5>
+            </div>
+            <Link to="/planetarygear" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={fridge} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+                Raspberry PI Camera
+              </h5>
+            </div>
+            <Link to="/Picamera" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={xray} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Seed Studio Xiao Esp32-C3
+              </h5>
+            </div>
+            <Link to="/xiaoesp" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
         <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
             <img src={molecule} className="h-32 w-full" alt="" />
@@ -2561,6 +2683,20 @@ const Engineering = () => {
   </h5>
 </div>
 <Link to="/zynqb" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Wireless Gaming Mouse
+  </h5>
+</div>
+<Link to="/Gmouse" className="py-4">
   <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
     Explore
   </span>
