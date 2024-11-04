@@ -197,7 +197,6 @@ import RadialCooler from "./components/container/Engineering/RadialCooler";
 import LiquidRocketEngine from "./components/container/Engineering/LiquidRocketEngine";
 import PotentiometerModule from "./components/container/Engineering/PotentiometerModule";
 import ZynqBerryZeroModule from "./components/container/Engineering/ZynqBerryZeroModule";
-import DB9_Connector from "./components/container/Engineering/DB9_Connector";
 import DisplayST from "./components/container/Engineering/DisplayST";
 import MicroMetalLathe from "./components/container/Engineering/MicroMetalLathe";
 import MicroSdCardHolder from "./components/container/Engineering/MicroSdCardHolder";
@@ -206,6 +205,7 @@ import PlanetaryGearSystem from "./components/container/Engineering/PlanetaryGea
 import RaspberryPICamera from "./components/container/Engineering/RaspberryPICamera";
 import SeedStudioXiaoEsp from "./components/container/Engineering/SeedStudioXiaoEsp";
 import WirelessGamingMouse from "./components/container/Engineering/WirelessGamingMouse";
+import DB_Connector from "./components/container/Engineering/DB_Connector";
 
 
 
@@ -484,10 +484,10 @@ root.render(
           />
 
           <Route
-            path="/db9"
+            path="/db"
             element={
               <Protected>
-                <DB9_Connector />
+                <DB_Connector />
               </Protected>
             }
           />

@@ -5,6 +5,15 @@ import transformer from "../../../assets/cardimages/transformer.gif";
 import twinscrew from "../../../assets/cardimages/twinscrew.gif";
 import syphone from "../../../assets/cardimages/syphone.gif";
 import router from "../../../assets/cardimages/router.gif";
+import DBconnector from "../../../assets/cardimages/DBconnector.png";
+import DisplayST from "../../../assets/cardimages/DisplayST.png";
+import Gamingmouse from "../../../assets/cardimages/Gamingmouse.png";
+import MicrometalLathe from "../../../assets/cardimages/MicrometalLathe.png";
+import MicroSD from "../../../assets/cardimages/MicroSD.png";
+import MiniatureverticalSystem from "../../../assets/cardimages/MicroSD.png";
+import PlanetaryGear from "../../../assets/cardimages/PlanetaryGear.png";
+import RaspberryPICamera from "../../../assets/cardimages/RaspberryPICamera.png";
+import XiaoESP from "../../../assets/cardimages/XiaoESP.png";
 import molecule from "../../../assets/cardimages/molecule.gif";
 import drone from "../../../assets/cardimages/drone.gif";
 import fridge from "../../../assets/cardimages/fridge.jpg";
@@ -63,7 +72,6 @@ import  cams from "../../../assets/cardimages/cams.gif";
 import  carsteering from "../../../assets/cardimages/carsteering.png";
 import suspensonImage from "../../../assets/cardimages/air suspension.jpg";
 import  dprinter from "../../../assets/cardimages/dprinter.gif";
-//import vaircompressor from "../../../assets/cardimages/vaircompressor.gif";
 import aircon from "../../../assets/cardimages/aircon.gif";
 import  bananapi from "../../../assets/cardimages/bananapi.gif";
 import  brutaldiyl from "../../../assets/cardimages/brutaldiyl.gif";
@@ -179,13 +187,13 @@ const Engineering = () => {
 
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={microusb} className="h-32 w-full" alt="" />
+<img src={DBconnector} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
     DB9 Connector Male
   </h5>
 </div>
-<Link to="/db9" className="py-4">
+<Link to="/db" className="py-4">
   <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
     Explore
   </span>
@@ -193,7 +201,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={dewalt} className="h-32 w-full" alt="" />
+<img src={DisplayST} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
     Display ST7789V2
@@ -207,7 +215,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={drill} className="h-32 w-full" alt="" />
+<img src={MicrometalLathe} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
     Micro Metal Lathe
@@ -221,7 +229,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={arduinonano} className="h-32 w-full" alt="" />
+<img src={MicroSD} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
     Micro SD Card And Holder
@@ -239,7 +247,7 @@ const Engineering = () => {
 
         <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-            <img src={molecule} className="h-32 w-full" alt="" />
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
                 Miniature Vertical System Engine
@@ -253,7 +261,7 @@ const Engineering = () => {
           </div>
 
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-            <img src={drone} className="h-32 w-full" alt="" />
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
               Planetary Gear System
@@ -267,7 +275,7 @@ const Engineering = () => {
           </div>
 
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-            <img src={fridge} className="h-32 w-full" alt="" />
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
                 Raspberry PI Camera
@@ -280,7 +288,7 @@ const Engineering = () => {
             </Link>
           </div>
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-            <img src={xray} className="h-32 w-full" alt="" />
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
               Seed Studio Xiao Esp32-C3
@@ -2690,7 +2698,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={Gamingmouse} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Wireless Gaming Mouse

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DB9_Connector = () => {
+const DB_Connector = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
@@ -18,4 +18,4 @@ const DB9_Connector = () => {
   )
 }
 
-export default DB9_Connector
+export default DB_Connector
