@@ -90,6 +90,29 @@ import  slidingmeshg from "../../../assets/cardimages/slidingmeshg.gif";
 import  tv from "../../../assets/cardimages/tv.gif";
 import  walkietal from "../../../assets/cardimages/walkietal.gif";
 import  watercooler from "../../../assets/cardimages/watercooler.gif";
+import Aircompressor from "../../../assets/cardimages/Air-compressor.png";
+import ANPRC from "../../../assets/cardimages/ANPRC 148 Radio.png";
+import BailingMachine from "../../../assets/cardimages/Bailing Machine.png";
+import BombaTyphoon from "../../../assets/cardimages/Bomba Typhoon Wilden.png";
+import ConcreteMixer from "../../../assets/cardimages/Concrete Mixer.png";
+import CornSheller from "../../../assets/cardimages/Corn Sheller.png";
+import DCRegulated from "../../../assets/cardimages/DC Regulated PowerSupply.png";
+import ElectricLinear from "../../../assets/cardimages/ElectricLinearActuator.png";
+import Excavator from "../../../assets/cardimages/Excavator.png";
+import GasolineGenerator from "../../../assets/cardimages/Gasoline Generator.png";
+import Hartnell from "../../../assets/cardimages/Hartnell Governor.png";
+import ICEngine from "../../../assets/cardimages/Ic Engine.png";
+import LadaAluminium from "../../../assets/cardimages/Lada Aluminium Front.png";
+import MetalLed from "../../../assets/cardimages/Metal LED Illuminated Latching.png";
+import MicroLathe from "../../../assets/cardimages/Micro Lathe.png";
+import Miniaturecircuit from "../../../assets/cardimages/Miniature Circuit Breaker.png";
+import Multimeter from "../../../assets/cardimages/Multimeter.png";
+import Oceangate from "../../../assets/cardimages/OceanGate Titan Submersible.png";
+import Oscilloscope from "../../../assets/cardimages/Oscilloscope.png";
+import PlasticWaste from "../../../assets/cardimages/Plastic Waste Crusher.png";
+import RaspberryPI_5 from "../../../assets/cardimages/Raspberry PI-5.png";
+import RibbonMixer from "../../../assets/cardimages/RibbonMixerMachine.png";
+import RicePeeler from "../../../assets/cardimages/Rice Peeler.png";
 
 
 
@@ -1229,7 +1252,7 @@ const Engineering = () => {
 
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={Aircompressor} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Air-compressor
@@ -1280,7 +1303,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={Hartnell} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Hartnill Governor
@@ -1331,7 +1354,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={ICEngine} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Ic Engine
@@ -1398,7 +1421,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={ConcreteMixer} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Concrete Mixer
@@ -1598,7 +1621,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={DCRegulated} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    DC Regulated PowerSupply
@@ -1632,7 +1655,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={bananapi} className="h-32 w-full" alt="" />
+<img src={Multimeter} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Multimeter
@@ -1646,7 +1669,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={aircon} className="h-32 w-full" alt="" />
+<img src={Oscilloscope} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Oscilloscope
@@ -1674,7 +1697,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={aircon} className="h-32 w-full" alt="" />
+<img src={ANPRC} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    ANPRC 148 Radio
@@ -1692,7 +1715,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={laptop} className="h-32 w-full" alt="" />
+<img src={CornSheller} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Corn Sheller
@@ -1706,7 +1729,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={tv} className="h-32 w-full" alt="" />
+<img src={MicroLathe} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Micro Lathe
@@ -1721,7 +1744,7 @@ const Engineering = () => {
 
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={PlasticWaste} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Plastic Waste Crusher
@@ -1735,7 +1758,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={walkietal} className="h-32 w-full" alt="" />
+<img src={RicePeeler} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Rice Peeler
@@ -1754,7 +1777,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={Miniaturecircuit} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   2 Pole Miniature Circuit Breaker
@@ -1768,7 +1791,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={GasolineGenerator} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Gasoline Generator
@@ -1782,7 +1805,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={Oceangate} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   OceanGate Titan Submersible
@@ -1796,7 +1819,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={BailingMachine} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Bailing Machine
@@ -1816,7 +1839,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={BombaTyphoon} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Bomba Typhoon Wilden
@@ -1844,7 +1867,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={LadaAluminium} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Lada Aluminium Front And Ventilated Brake
@@ -1858,7 +1881,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={MetalLed} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Metal LED Illuminated Latching
@@ -1878,7 +1901,7 @@ const Engineering = () => {
 <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={RaspberryPI_5} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
   Raspberry PI-5
@@ -1892,7 +1915,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={RibbonMixer} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Ribbon Mixer Machine
@@ -1906,7 +1929,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={Excavator} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Excavator
@@ -1920,7 +1943,7 @@ const Engineering = () => {
 </div>
 
 <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
-<img src={suspensonImage} className="h-32 w-full" alt="" />
+<img src={ElectricLinear} className="h-32 w-full" alt="" />
 <div className="p-3">
   <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
    Electric Linear Actuator
