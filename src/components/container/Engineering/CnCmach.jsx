@@ -1,11 +1,11 @@
 import React from 'react'
 
-const DB_Connector = () => {
+const CnCmach = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://db-9-connector.vercel.app/"
-            title="DB9_Connector_Male"
+            src="https://cnc-3018.vercel.app/"
+            title="CNC-3018"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
             allowfullscreen="true"
@@ -18,4 +18,4 @@ const DB_Connector = () => {
   )
 }
 
-export default DB_Connector
+export default CnCmach

@@ -205,7 +205,13 @@ import PlanetaryGearSystem from "./components/container/Engineering/PlanetaryGea
 import RaspberryPICamera from "./components/container/Engineering/RaspberryPICamera";
 import SeedStudioXiaoEsp from "./components/container/Engineering/SeedStudioXiaoEsp";
 import WirelessGamingMouse from "./components/container/Engineering/WirelessGamingMouse";
-import DB_Connector from "./components/container/Engineering/DB_Connector";
+import AIRgNozzle from "./components/container/Engineering/AIRgNozzle";
+import BKSeuroLock from "./components/container/Engineering/BKSeuroLock";
+import CnCmach from "./components/container/Engineering/CnCmach";
+import FishingReel from "./components/container/Engineering/FishingReel";
+import PneumaticShearMachine from "./components/container/Engineering/PneumaticShearMachine";
+import SheetMetalBender from "./components/container/Engineering/SheetMetalBender";
+import DBConnector from "./components/container/Engineering/DBConnector";
 
 
 
@@ -487,7 +493,7 @@ root.render(
             path="/db"
             element={
               <Protected>
-                <DB_Connector />
+                <DBConnector />
               </Protected>
             }
           />
@@ -551,6 +557,42 @@ root.render(
             element={
               <Protected>
                 <SeedStudioXiaoEsp />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/AGN"
+            element={
+              <Protected>
+                <AIRgNozzle />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/bkslock"
+            element={
+              <Protected>
+                <BKSeuroLock/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/cNc"
+            element={
+              <Protected>
+                <CnCmach/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/freel"
+            element={
+              <Protected>
+                <FishingReel/>
               </Protected>
             }
           />
@@ -2006,6 +2048,50 @@ root.render(
     </Protected>
   }
 />
+
+<Route
+  path="/psm"
+  element={
+    <Protected>
+      <PneumaticShearMachine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/SMB"
+  element={
+    <Protected>
+      <SheetMetalBender/>
+    </Protected>
+  }
+/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
