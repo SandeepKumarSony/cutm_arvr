@@ -386,6 +386,124 @@ const Engineering = () => {
 
         <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Air Pressure Gauge
+              </h5>
+            </div>
+            <Link to="/apg" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Caster Wheel
+              </h5>
+            </div>
+            <Link to="/casterw" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Cortex3D CoreXY 3D Printer
+              </h5>
+            </div>
+            <Link to="/cortexp" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Digital Scientific Calculator
+              </h5>
+            </div>
+            <Link to="/dsc" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Hydraulic Jack
+              </h5>
+            </div>
+            <Link to="/Hyjack" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Hydraulic Press 50T
+              </h5>
+            </div>
+            <Link to="/hp50t" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Manual Pipe Bending Hydraulic Machine
+              </h5>
+            </div>
+            <Link to="/mpbhm" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Odroid XU4
+              </h5>
+            </div>
+            <Link to="/odroid" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
             <img src={molecule} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">

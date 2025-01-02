@@ -212,6 +212,14 @@ import FishingReel from "./components/container/Engineering/FishingReel";
 import PneumaticShearMachine from "./components/container/Engineering/PneumaticShearMachine";
 import SheetMetalBender from "./components/container/Engineering/SheetMetalBender";
 import DBConnector from "./components/container/Engineering/DBConnector";
+import AirPressureGauge from "./components/container/Engineering/AirPressureGauge";
+import CasterWheel from "./components/container/Engineering/CasterWheel";
+import CoretexCoreXYPrinter from "./components/container/Engineering/CoretexCoreXYPrinter";
+import DigitalScientificCalculator from "./components/container/Engineering/DigitalScientificCalculator";
+import HydraulicJack from "./components/container/Engineering/HydraulicJack";
+import HydraulicpressfiftyT from "./components/container/Engineering/HydraulicpressfiftyT";
+import ManualPipeBending from "./components/container/Engineering/ManualPipeBending";
+import OdroidXU from "./components/container/Engineering/OdroidXU";
 
 
 
@@ -593,6 +601,78 @@ root.render(
             element={
               <Protected>
                 <FishingReel/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/apg"
+            element={
+              <Protected>
+                <AirPressureGauge/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/casterw"
+            element={
+              <Protected>
+                <CasterWheel/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/cortexp"
+            element={
+              <Protected>
+                <CoretexCoreXYPrinter/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/dsc"
+            element={
+              <Protected>
+                <DigitalScientificCalculator/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Hyjack"
+            element={
+              <Protected>
+                <HydraulicJack/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/hp50t"
+            element={
+              <Protected>
+                <HydraulicpressfiftyT/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/mpbhm"
+            element={
+              <Protected>
+                <ManualPipeBending/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/odroid"
+            element={
+              <Protected>
+                <OdroidXU/>
               </Protected>
             }
           />
