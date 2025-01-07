@@ -220,6 +220,13 @@ import HydraulicJack from "./components/container/Engineering/HydraulicJack";
 import HydraulicpressfiftyT from "./components/container/Engineering/HydraulicpressfiftyT";
 import ManualPipeBending from "./components/container/Engineering/ManualPipeBending";
 import OdroidXU from "./components/container/Engineering/OdroidXU";
+import PumpCompleteExtude from "./components/container/Engineering/PumpCompleteExtude";
+import QuickCharger from "./components/container/Engineering/QuickCharger";
+import RaspberryPiSimplified from "./components/container/Engineering/RaspberryPiSimplified";
+import SMEPowerGeneration from "./components/container/Engineering/SMEPowerGeneration";
+import ScrewTerminal from "./components/container/Engineering/ScrewTerminal";
+import SIMCard from "./components/container/Engineering/SIMCard";
+import ToogleClamp from "./components/container/Engineering/ToogleClamp";
 
 
 
@@ -673,6 +680,42 @@ root.render(
             element={
               <Protected>
                 <OdroidXU/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/pumpco"
+            element={
+              <Protected>
+                <PumpCompleteExtude/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Qtps"
+            element={
+              <Protected>
+                <QuickCharger/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Rpsss"
+            element={
+              <Protected>
+                <RaspberryPiSimplified/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/smepg"
+            element={
+              <Protected>
+                <SMEPowerGeneration/>
               </Protected>
             }
           />
@@ -2143,6 +2186,33 @@ root.render(
   element={
     <Protected>
       <SheetMetalBender/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/STer"
+  element={
+    <Protected>
+      <ScrewTerminal/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/SimC"
+  element={
+    <Protected>
+      <SIMCard/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/TClamp"
+  element={
+    <Protected>
+      <ToogleClamp/>
     </Protected>
   }
 />

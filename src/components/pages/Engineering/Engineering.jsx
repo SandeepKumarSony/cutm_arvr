@@ -504,6 +504,65 @@ const Engineering = () => {
 
         <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Pump Complete Extude
+              </h5>
+            </div>
+            <Link to="/pumpco" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Quick Charger TPS61088
+              </h5>
+            </div>
+            <Link to="/Qtps" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Raspberry Pi Simplified Single Solid
+              </h5>
+            </div>
+            <Link to="/Rpsss" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              SME Power Generation
+              </h5>
+            </div>
+            <Link to="/smepg" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
             <img src={molecule} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
@@ -2938,6 +2997,54 @@ const Engineering = () => {
 </Link>
 </div>
 
+
+
+</div>
+
+
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Screw Terminal
+  </h5>
+</div>
+<Link to="/STer" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={Gamingmouse} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  SIM Card
+  </h5>
+</div>
+<Link to="/SimC" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={Gamingmouse} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Toogle Clamp
+  </h5>
+</div>
+<Link to="/TClamp" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
 
 
 </div>
