@@ -17,5 +17,5 @@ const PrecisionSeeder = () => {
     </div>
   )
 }
-D
+
 export default PrecisionSeeder
