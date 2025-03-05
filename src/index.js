@@ -227,6 +227,22 @@ import SMEPowerGeneration from "./components/container/Engineering/SMEPowerGener
 import ScrewTerminal from "./components/container/Engineering/ScrewTerminal";
 import SIMCard from "./components/container/Engineering/SIMCard";
 import ToogleClamp from "./components/container/Engineering/ToogleClamp";
+import ACMOTOR from "./components/container/Engineering/ACMOTOR";
+import BrakeCaliper from "./components/container/Engineering/BrakeCaliper";
+import CarStartingSyatem from "./components/container/Engineering/CarStartingSyatem";
+import CarSuspension from "./components/container/Engineering/CarSuspension";
+import Carburetor from "./components/container/Engineering/Carburetor";
+import CarCloserDoor from "./components/container/Engineering/CarCloserDoor";
+import ChainConveyor from "./components/container/Engineering/ChainConveyor";
+import DiagonalPress from "./components/container/Engineering/DiagonalPress";
+import GDF from "./components/container/Engineering/GDF";
+import HighPressurePump from "./components/container/Engineering/HighPressurePump";
+import HokkenTelescope from "./components/container/Engineering/HokkenTelescope";
+import IOTAurdinoMegaCaseLCD from "./components/container/Engineering/IOTAurdinoMegaCaseLCD";
+import MaxsunKingMatxMotherboard from "./components/container/Engineering/MaxsunKingMatxMotherboard";
+import PistonValveless from "./components/container/Engineering/PistonValveless";
+import RearDifferential from "./components/container/Engineering/RearDifferential";
+import StandardVise from "./components/container/Engineering/StandardVise";
 
 
 
@@ -784,7 +800,149 @@ root.render(
       }
     />
 
-   
+   <Route
+      path="/acm"
+      element={
+        <Protected>
+          <ACMOTOR/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/bcali"
+      element={
+        <Protected>
+          <BrakeCaliper/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/cssy"
+      element={
+        <Protected>
+          <CarStartingSyatem/>
+        </Protected>
+      }
+    />
+
+     <Route
+      path="/csus"
+      element={
+        <Protected>
+          <CarSuspension/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/carbu"
+      element={
+        <Protected>
+          <Carburetor/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/ccd"
+      element={
+        <Protected>
+          <CarCloserDoor/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/chaincon"
+      element={
+        <Protected>
+          <ChainConveyor/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/diagonal"
+      element={
+        <Protected>
+          <DiagonalPress/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/gdf"
+      element={
+        <Protected>
+          <GDF/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/hpump"
+      element={
+        <Protected>
+          <HighPressurePump/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/hokken"
+      element={
+        <Protected>
+          <HokkenTelescope/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/iamcl"
+      element={
+        <Protected>
+          <IOTAurdinoMegaCaseLCD/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/mkmm"
+      element={
+        <Protected>
+          <MaxsunKingMatxMotherboard/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/pistonv"
+      element={
+        <Protected>
+          <PistonValveless/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/presee"
+      element={
+        <Protected>
+          <PrecisionSeeder/>
+        </Protected>
+      }
+    />
+
+    <Route
+      path="/rearD"
+      element={
+        <Protected>
+          <RearDifferential/>
+        </Protected>
+      }
+    />
 
     <Route
     path="/microusb"
@@ -2213,6 +2371,15 @@ root.render(
   element={
     <Protected>
       <ToogleClamp/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Svise"
+  element={
+    <Protected>
+      <StandardVise/>
     </Protected>
   }
 />
