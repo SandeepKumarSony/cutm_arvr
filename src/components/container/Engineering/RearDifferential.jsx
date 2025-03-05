@@ -17,5 +17,5 @@ const RearDifferential = () => {
     </div>
   )
 }
-D
+
 export default RearDifferential

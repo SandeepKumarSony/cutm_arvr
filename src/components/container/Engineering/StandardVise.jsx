@@ -17,5 +17,5 @@ const StandardVise = () => {
     </div>
   )
 }
-D
+
 export default StandardVise

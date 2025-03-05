@@ -17,5 +17,5 @@ const MaxsunKingMatxMotherboard = () => {
     </div>
   )
 }
-D
+
 export default MaxsunKingMatxMotherboard
