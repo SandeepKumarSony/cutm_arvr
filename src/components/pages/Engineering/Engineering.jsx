@@ -331,6 +331,64 @@ const Engineering = () => {
             <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
             <div className="p-3">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Bender Assembly
+              </h5>
+            </div>
+            <Link to="/BenderA" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Double Action Oscillating
+              </h5>
+            </div>
+            <Link to="/DAOSC" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Front Frame Tracking Fixture
+              </h5>
+            </div>
+            <Link to="/FFTF" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              GalvanoMeter
+              </h5>
+            </div>
+            <Link to="/Galvano" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
               AIR G18-G17 Nozzle
               </h5>
             </div>

@@ -244,6 +244,10 @@ import PistonValveless from "./components/container/Engineering/PistonValveless"
 import RearDifferential from "./components/container/Engineering/RearDifferential";
 import StandardVise from "./components/container/Engineering/StandardVise";
 import PrecisionSeeder from "./components/container/Engineering/PrecisionSeeder";
+import BenderAssembly from "./components/container/Engineering/BenderAssembly";
+import DoubleActionOscillating from "./components/container/Engineering/DoubleActionOscillating";
+import FrontFrameTrackingFixture from "./components/container/Engineering/FrontFrameTrackingFixture";
+import GalvanoMeter from "./components/container/Engineering/GalvanoMeter";
 
 
 
@@ -589,6 +593,42 @@ root.render(
             element={
               <Protected>
                 <SeedStudioXiaoEsp />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/BenderA"
+            element={
+              <Protected>
+                <BenderAssembly />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/DAOSC"
+            element={
+              <Protected>
+                <DoubleActionOscillating />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/FFTF"
+            element={
+              <Protected>
+                <FrontFrameTrackingFixture />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Galvano"
+            element={
+              <Protected>
+                <GalvanoMeter />
               </Protected>
             }
           />
