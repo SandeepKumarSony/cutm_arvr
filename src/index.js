@@ -248,6 +248,10 @@ import BenderAssembly from "./components/container/Engineering/BenderAssembly";
 import DoubleActionOscillating from "./components/container/Engineering/DoubleActionOscillating";
 import FrontFrameTrackingFixture from "./components/container/Engineering/FrontFrameTrackingFixture";
 import GalvanoMeter from "./components/container/Engineering/GalvanoMeter";
+import GameController from "./components/container/Engineering/GameController";
+import LakeCleaningMachine from "./components/container/Engineering/LakeCleaningMachine";
+import Linkages from "./components/container/Engineering/Linkages";
+import LowLeakConnector from "./components/container/Engineering/LowLeakConnector";
 
 
 
@@ -629,6 +633,42 @@ root.render(
             element={
               <Protected>
                 <GalvanoMeter />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/GameC"
+            element={
+              <Protected>
+                <GameController />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/LakeCM"
+            element={
+              <Protected>
+                <LakeCleaningMachine />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Linkages"
+            element={
+              <Protected>
+                <Linkages />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/LowLeakC"
+            element={
+              <Protected>
+                <LowLeakConnector />
               </Protected>
             }
           />
