@@ -252,6 +252,22 @@ import GameController from "./components/container/Engineering/GameController";
 import LakeCleaningMachine from "./components/container/Engineering/LakeCleaningMachine";
 import Linkages from "./components/container/Engineering/Linkages";
 import LowLeakConnector from "./components/container/Engineering/LowLeakConnector";
+import MagazineMechanism from "./components/container/Engineering/MagazineMechanism";
+import MellowHeatcoreUHFALPS from "./components/container/Engineering/MellowHeatcoreUHFALPS";
+import MiniTillerandWeeder from "./components/container/Engineering/MiniTillerandWeeder";
+import MTStoveFogareiro from "./components/container/Engineering/MTStoveFogareiro";
+import OpticalMouse from "./components/container/Engineering/OpticalMouse";
+import PepperBlendingMachine from "./components/container/Engineering/PepperBlendingMachine";
+import PneumaticCylinder from "./components/container/Engineering/PneumaticCylinder";
+import Scope from "./components/container/Engineering/Scope";
+import SlutAssemblyFunction from "./components/container/Engineering/SlutAssemblyFunction";
+import SmartUnderwaterCommunicationBuoy from "./components/container/Engineering/SmartUnderwaterCommunicationBuoy";
+import Speaker from "./components/container/Engineering/Speaker";
+import SugarMixingMachine from "./components/container/Engineering/SugarMixingMachine";
+import TriggerMechanism from "./components/container/Engineering/TriggerMechanism";
+import TurboCharger from "./components/container/Engineering/TurboCharger";
+import VendingMachine from "./components/container/Engineering/VendingMachine";
+import WarthogQRAssembly from "./components/container/Engineering/WarthogQRAssembly";
 
 
 
@@ -669,6 +685,150 @@ root.render(
             element={
               <Protected>
                 <LowLeakConnector />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/magazine"
+            element={
+              <Protected>
+                <MagazineMechanism />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/mellow"
+            element={
+              <Protected>
+                <MellowHeatcoreUHFALPS />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/minitiller"
+            element={
+              <Protected>
+                <MiniTillerandWeeder />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/mtstove"
+            element={
+              <Protected>
+                <MTStoveFogareiro />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/opticalm"
+            element={
+              <Protected>
+                <OpticalMouse />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/pepperbm"
+            element={
+              <Protected>
+                <PepperBlendingMachine />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/pneumaticylinder"
+            element={
+              <Protected>
+                <PneumaticCylinder />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Scope"
+            element={
+              <Protected>
+                <Scope />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/slutaf"
+            element={
+              <Protected>
+                <SlutAssemblyFunction />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Buoy"
+            element={
+              <Protected>
+                <SmartUnderwaterCommunicationBuoy />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Speaker"
+            element={
+              <Protected>
+                <Speaker />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/sugarm"
+            element={
+              <Protected>
+                <SugarMixingMachine />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/triggerm"
+            element={
+              <Protected>
+                <TriggerMechanism/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/turbocharger"
+            element={
+              <Protected>
+                <TurboCharger/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/Vendingm"
+            element={
+              <Protected>
+                <VendingMachine/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/WarthogQR"
+            element={
+              <Protected>
+                <WarthogQRAssembly/>
               </Protected>
             }
           />

@@ -426,6 +426,7 @@ const Engineering = () => {
               </span>
             </Link>
           </div>
+
           <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
             <img src={XiaoESP} className="h-32 w-full" alt="" />
             <div className="p-3">
@@ -434,6 +435,242 @@ const Engineering = () => {
               </h5>
             </div>
             <Link to="/LowLeakC" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Magazine Mechanism
+              </h5>
+            </div>
+            <Link to="/magazine" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Mellow Heatcore UHF ALPS
+              </h5>
+            </div>
+            <Link to="/mellow" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Mini Tiller and Weeder
+              </h5>
+            </div>
+            <Link to="/minitiller" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+          
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              MT Stove Fogareiro
+              </h5>
+            </div>
+            <Link to="/mtstove" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Optical Mouse
+              </h5>
+            </div>
+            <Link to="/opticalm" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Pepper Blending Machine
+              </h5>
+            </div>
+            <Link to="/pepperbm" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Pneumatic Cylinder
+              </h5>
+            </div>
+            <Link to="/pneumaticylinder" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+          
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Scope
+              </h5>
+            </div>
+            <Link to="/mtstove" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Slut Assembly Function
+              </h5>
+            </div>
+            <Link to="/slutaf" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Smart Underwater Communication Buoy
+              </h5>
+            </div>
+            <Link to="/Buoy" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Speaker
+              </h5>
+            </div>
+            <Link to="/Speaker" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+          
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Sugar Mixing Machine
+              </h5>
+            </div>
+            <Link to="/sugarm" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+        </div>
+
+
+        <div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-4 justify-center items-center ">
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={MiniatureverticalSystem} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Trigger Mechanism
+              </h5>
+            </div>
+            <Link to="/triggerm" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={PlanetaryGear} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Turbo Charger
+              </h5>
+            </div>
+            <Link to="/turbocharger" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={RaspberryPICamera} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Vending Machine
+              </h5>
+            </div>
+            <Link to="/Vendingm" className="py-4">
+              <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+                Explore
+              </span>
+            </Link>
+          </div>
+          
+          <div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+            <img src={XiaoESP} className="h-32 w-full" alt="" />
+            <div className="p-3">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              Warthog_QR Assembly
+              </h5>
+            </div>
+            <Link to="/WarthogQR" className="py-4">
               <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
                 Explore
               </span>
