@@ -268,6 +268,13 @@ import TriggerMechanism from "./components/container/Engineering/TriggerMechanis
 import TurboCharger from "./components/container/Engineering/TurboCharger";
 import VendingMachine from "./components/container/Engineering/VendingMachine";
 import WarthogQRAssembly from "./components/container/Engineering/WarthogQRAssembly";
+import BetelNutGrindingMachine from "./components/container/Engineering/BetelNutGrindingMachine";
+import CardanJoint from "./components/container/Engineering/CardanJoint";
+import DiscGrinder from "./components/container/Engineering/DiscGrinder";
+import DoubleAarms from "./components/container/Engineering/DoubleAarms";
+import EggbeaterDrill from "./components/container/Engineering/EggbeaterDrill";
+import SteamEngineAssembly from "./components/container/Engineering/SteamEngineAssembly";
+import WormGear from "./components/container/Engineering/WormGear";
 
 
 
@@ -2625,6 +2632,68 @@ root.render(
   }
 />
 
+<Route
+  path="/Betelnut"
+  element={
+    <Protected>
+      <BetelNutGrindingMachine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Cjoint"
+  element={
+    <Protected>
+      <CardanJoint/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Discgrinder"
+  element={
+    <Protected>
+      <DiscGrinder/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Doublearm"
+  element={
+    <Protected>
+      <DoubleAarms/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/EggbeaterD"
+  element={
+    <Protected>
+      <EggbeaterDrill/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/SteamEA"
+  element={
+    <Protected>
+      <SteamEngineAssembly/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Wormgear"
+  element={
+    <Protected>
+      <WormGear/>
+    </Protected>
+  }
+/>
 
 
 
