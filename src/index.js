@@ -275,6 +275,10 @@ import DoubleAarms from "./components/container/Engineering/DoubleAarms";
 import EggbeaterDrill from "./components/container/Engineering/EggbeaterDrill";
 import SteamEngineAssembly from "./components/container/Engineering/SteamEngineAssembly";
 import WormGear from "./components/container/Engineering/WormGear";
+import AIRobotHand from "./components/container/Engineering/AIRobotHand";
+import Manometer from "./components/container/Engineering/Manometer";
+import SFSSmart from "./components/container/Engineering/SFSSmart";
+import CutOffMachine from "./components/container/Engineering/CutOffMachine";
 
 
 
@@ -2691,6 +2695,42 @@ root.render(
   element={
     <Protected>
       <WormGear/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/robohand"
+  element={
+    <Protected>
+      <AIRobotHand/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/manometer"
+  element={
+    <Protected>
+      <Manometer/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/SFSSmart"
+  element={
+    <Protected>
+      <SFSSmart/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/cutoffm"
+  element={
+    <Protected>
+      <CutOffMachine/>
     </Protected>
   }
 />
