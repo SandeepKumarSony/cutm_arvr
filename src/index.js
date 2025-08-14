@@ -279,6 +279,15 @@ import AIRobotHand from "./components/container/Engineering/AIRobotHand";
 import Manometer from "./components/container/Engineering/Manometer";
 import SFSSmart from "./components/container/Engineering/SFSSmart";
 import CutOffMachine from "./components/container/Engineering/CutOffMachine";
+import DnSocket from "./components/container/Engineering/DnSocket";
+import DroneMotor from "./components/container/Engineering/DroneMotor";
+import FishingRod from "./components/container/Engineering/FishingRod";
+import Gatosdeapriete from "./components/container/Engineering/Gatosdeapriete";
+import JockeyWheel from "./components/container/Engineering/JockeyWheel";
+import LEOCentrifugalPump from "./components/container/Engineering/LEOCentrifugalPump";
+import VoltageConverter from "./components/container/Engineering/VoltageConverter";
+import MicroSupercharger from "./components/container/Engineering/MicroSupercharger";
+import MiniGearPump from "./components/container/Engineering/MiniGearPump";
 
 
 
@@ -2735,6 +2744,86 @@ root.render(
   }
 />
 
+<Route
+  path="/dnsocket"
+  element={
+    <Protected>
+      <DnSocket/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/DMotor"
+  element={
+    <Protected>
+      <DroneMotor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/fishrod"
+  element={
+    <Protected>
+      <FishingRod/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/gatos"
+  element={
+    <Protected>
+      <Gatosdeapriete/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/jwheel"
+  element={
+    <Protected>
+      <JockeyWheel/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/leopump"
+  element={
+    <Protected>
+      <LEOCentrifugalPump/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/vconvert"
+  element={
+    <Protected>
+      <VoltageConverter/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/mscharger"
+  element={
+    <Protected>
+      <MicroSupercharger/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/mgpump"
+  element={
+    <Protected>
+      <MiniGearPump/>
+    </Protected>
+  }
+/>
 
 
 
