@@ -288,6 +288,13 @@ import LEOCentrifugalPump from "./components/container/Engineering/LEOCentrifuga
 import VoltageConverter from "./components/container/Engineering/VoltageConverter";
 import MicroSupercharger from "./components/container/Engineering/MicroSupercharger";
 import MiniGearPump from "./components/container/Engineering/MiniGearPump";
+import PesiFlat from "./components/container/Engineering/PesiFlat";
+import PipeVicePart from "./components/container/Engineering/PipeVicePart";
+import PressureSensor from "./components/container/Engineering/PressureSensor";
+import SoporteDeDiafragma from "./components/container/Engineering/SoporteDeDiafragma";
+import Spindel from "./components/container/Engineering/Spindel";
+import TonHydraulicPress from "./components/container/Engineering/TonHydraulicPress";
+import Zaxissetting from "./components/container/Engineering/Zaxissetting";
 
 
 
@@ -2821,6 +2828,69 @@ root.render(
   element={
     <Protected>
       <MiniGearPump/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/pesiflat"
+  element={
+    <Protected>
+      <PesiFlat/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/pvpart"
+  element={
+    <Protected>
+      <PipeVicePart/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/psensor"
+  element={
+    <Protected>
+      <PressureSensor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/soporte"
+  element={
+    <Protected>
+      <SoporteDeDiafragma/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Spindel"
+  element={
+    <Protected>
+      <Spindel/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/tonhp"
+  element={
+    <Protected>
+      <TonHydraulicPress/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/zaxis"
+  element={
+    <Protected>
+      <Zaxissetting/>
     </Protected>
   }
 />
