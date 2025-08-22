@@ -295,6 +295,10 @@ import SoporteDeDiafragma from "./components/container/Engineering/SoporteDeDiaf
 import Spindel from "./components/container/Engineering/Spindel";
 import TonHydraulicPress from "./components/container/Engineering/TonHydraulicPress";
 import Zaxissetting from "./components/container/Engineering/Zaxissetting";
+import FuelInjector from "./components/container/Engineering/FuelInjector";
+import SolarWaterHeater from "./components/container/Engineering/SolarWaterHeater";
+import SonyCameraSensor from "./components/container/Engineering/SonyCameraSensor";
+import StubShaftAssembly from "./components/container/Engineering/StubShaftAssembly";
 
 
 
@@ -604,6 +608,42 @@ root.render(
             element={
               <Protected>
                 <MicroSdCardHolder />
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/fueli"
+            element={
+              <Protected>
+                <FuelInjector/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/solarwh"
+            element={
+              <Protected>
+                <SolarWaterHeater/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/scsensor"
+            element={
+              <Protected>
+                <SonyCameraSensor/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/stubshaft"
+            element={
+              <Protected>
+                <StubShaftAssembly/>
               </Protected>
             }
           />
