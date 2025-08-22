@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ZFuelInjector = () => {
+const FuelInjector = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
