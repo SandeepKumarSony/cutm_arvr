@@ -299,6 +299,12 @@ import FuelInjector from "./components/container/Engineering/FuelInjector";
 import SolarWaterHeater from "./components/container/Engineering/SolarWaterHeater";
 import SonyCameraSensor from "./components/container/Engineering/SonyCameraSensor";
 import StubShaftAssembly from "./components/container/Engineering/StubShaftAssembly";
+import HydroscandPipe from "./components/container/Engineering/HydroscandPipe";
+import LogCraneGrapple from "./components/container/Engineering/LogCraneGrapple";
+import SpiderRobot from "./components/container/Engineering/SpiderRobot";
+import GasDetectorHoneywell from "./components/container/Engineering/GasDetectorHoneywell";
+import SirenQLight from "./components/container/Engineering/SirenQLight";
+import SquidGuttingMachine from "./components/container/Engineering/SquidGuttingMachine";
 
 
 
@@ -644,6 +650,42 @@ root.render(
             element={
               <Protected>
                 <StubShaftAssembly/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/hydrosp"
+            element={
+              <Protected>
+                <HydroscandPipe/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/logcrane"
+            element={
+              <Protected>
+                <LogCraneGrapple/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/spiderR"
+            element={
+              <Protected>
+                <SpiderRobot/>
+              </Protected>
+            }
+          />
+
+          <Route
+            path="/gasdh"
+            element={
+              <Protected>
+                <GasDetectorHoneywell/>
               </Protected>
             }
           />
@@ -2931,6 +2973,24 @@ root.render(
   element={
     <Protected>
       <Zaxissetting/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/sqlight"
+  element={
+    <Protected>
+      <SirenQLight/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/squidgm"
+  element={
+    <Protected>
+      <SquidGuttingMachine/>
     </Protected>
   }
 />
