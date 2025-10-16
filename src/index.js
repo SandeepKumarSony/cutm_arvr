@@ -305,6 +305,13 @@ import SpiderRobot from "./components/container/Engineering/SpiderRobot";
 import GasDetectorHoneywell from "./components/container/Engineering/GasDetectorHoneywell";
 import SirenQLight from "./components/container/Engineering/SirenQLight";
 import SquidGuttingMachine from "./components/container/Engineering/SquidGuttingMachine";
+import DremelDrillPress from "./components/container/Engineering/DremelDrillPress";
+import MicrowaveTransformerWeb from "./components/container/Engineering/MicrowaveTransformerWeb";
+import PneumaticControlBox from "./components/container/Engineering/PneumaticControlBox";
+import TableSaw from "./components/container/Engineering/TableSaw";
+import SCREWJACK from "./components/container/Engineering/SCREWJACK";
+import SYRINGE from "./components/container/Engineering/SYRINGE";
+import SparkFunUSBCBreakout from "./components/container/Engineering/SparkFunUSBCBreakout";
 
 
 
@@ -2995,6 +3002,68 @@ root.render(
   }
 />
 
+<Route
+  path="/drillp"
+  element={
+    <Protected>
+      <DremelDrillPress/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/mtweb"
+  element={
+    <Protected>
+      <MicrowaveTransformerWeb/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Pcbox"
+  element={
+    <Protected>
+      <PneumaticControlBox/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/tablesaw"
+  element={
+    <Protected>
+      <TableSaw/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/sjack"
+  element={
+    <Protected>
+      <SCREWJACK/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/syringe"
+  element={
+    <Protected>
+      <SYRINGE/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/sparkfun"
+  element={
+    <Protected>
+      <SparkFunUSBCBreakout/>
+    </Protected>
+  }
+/>
 
 
 
