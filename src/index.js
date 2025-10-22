@@ -312,6 +312,14 @@ import TableSaw from "./components/container/Engineering/TableSaw";
 import SCREWJACK from "./components/container/Engineering/SCREWJACK";
 import SYRINGE from "./components/container/Engineering/SYRINGE";
 import SparkFunUSBCBreakout from "./components/container/Engineering/SparkFunUSBCBreakout";
+import ElectricPanelBox from "./components/container/Engineering/ElectricPanelBox";
+import CorkScrew from "./components/container/Engineering/CorkScrew";
+import BikePedalAssembly from "./components/container/Engineering/BikePedalAssembly";
+import Decoiler from "./components/container/Engineering/Decoiler";
+import Mandrino from "./components/container/Engineering/Mandrino";
+import ClutchHousingCover from "./components/container/Engineering/ClutchHousingCover";
+import StringCutter from "./components/container/Engineering/StringCutter";
+import MiniWindmill from "./components/container/Engineering/MiniWindmill";
 
 
 
@@ -3065,9 +3073,77 @@ root.render(
   }
 />
 
+<Route
+  path="/epbox"
+  element={
+    <Protected>
+      <ElectricPanelBox/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/CorkScrew"
+  element={
+    <Protected>
+      <CorkScrew/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/bpedal"
+  element={
+    <Protected>
+      <BikePedalAssembly/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/Decoiler"
+  element={
+    <Protected>
+      <Decoiler/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/Mandrino"
+  element={
+    <Protected>
+      <Mandrino/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/clutchC"
+  element={
+    <Protected>
+      <ClutchHousingCover/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/StringCutter"
+  element={
+    <Protected>
+      <StringCutter/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/MiniWindmill"
+  element={
+    <Protected>
+      <MiniWindmill/>
+    </Protected>
+  }
+/>
 
 
 
