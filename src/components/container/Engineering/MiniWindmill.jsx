@@ -4,7 +4,7 @@ const MiniWindmill = () => {
   return (
     <div className='flex justify-center items-center'>
          <iframe
-            src="https://string-cutter.vercel.app/"
+            src="https://mini-windmill.vercel.app/"
             title="MiniWindmill"
             className='h-screen w-full'
             //style={{ width: "500px", height: "400px" }}
