@@ -320,6 +320,10 @@ import Mandrino from "./components/container/Engineering/Mandrino";
 import ClutchHousingCover from "./components/container/Engineering/ClutchHousingCover";
 import StringCutter from "./components/container/Engineering/StringCutter";
 import MiniWindmill from "./components/container/Engineering/MiniWindmill";
+import TPChargingModule from "./components/container/Engineering/TPChargingModule";
+import MCS from "./components/container/Engineering/MCS";
+import PTCFanHeater from "./components/container/Engineering/PTCFanHeater";
+import AirPressureSensor from "./components/container/Engineering/AirPressureSensor";
 
 
 
@@ -3141,6 +3145,42 @@ root.render(
   element={
     <Protected>
       <MiniWindmill/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/tpcharge"
+  element={
+    <Protected>
+      <TPChargingModule/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/MCS"
+  element={
+    <Protected>
+      <MCS/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ptcfh"
+  element={
+    <Protected>
+      <PTCFanHeater/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/airps"
+  element={
+    <Protected>
+      <AirPressureSensor/>
     </Protected>
   }
 />

@@ -4471,6 +4471,68 @@ const Engineering = () => {
 </div>
 
 
+<div className="md:flex-col sm:flex-col lg:flex lg:flex-row gap-4 my-10 mx-1 justify-center items-center">
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  TP4056 Charging Module
+  </h5>
+</div>
+<Link to="/tpcharge" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Missile Carrying Satellite
+  </h5>
+</div>
+<Link to="/MCS" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  PTC Fan Heater
+  </h5>
+</div>
+<Link to="/ptcfh" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+<div className="w-72 bg-zinc-900 shadow-xl flex flex-col gap-6 justify-center  items-center">
+<img src={suspensonImage} className="h-32 w-full" alt="" />
+<div className="p-3">
+  <h5 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+  Air Pressure Sensor
+  </h5>
+</div>
+<Link to="/airps" className="py-4">
+  <span className="bg-blue-700 text-white font-medium px-3 py-2 rounded-lg">
+    Explore
+  </span>
+</Link>
+</div>
+
+
+</div>
+
+
 
 
 
