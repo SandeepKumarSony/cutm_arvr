@@ -324,6 +324,18 @@ import TPChargingModule from "./components/container/Engineering/TPChargingModul
 import MCS from "./components/container/Engineering/MCS";
 import PTCFanHeater from "./components/container/Engineering/PTCFanHeater";
 import AirPressureSensor from "./components/container/Engineering/AirPressureSensor";
+import MortisingJig from "./components/container/Engineering/MortisingJig";
+import WoodBurningHeatingStove from "./components/container/Engineering/WoodBurningHeatingStove";
+import AntiVibrationShockAbsorber from "./components/container/Engineering/AntiVibrationShockAbsorber";
+import SGServoMotor from "./components/container/Engineering/SGServoMotor";
+import SpringChannelConnectionTool from "./components/container/Engineering/SpringChannelConnectionTool";
+import ElectricLightComponent from "./components/container/Engineering/ElectricLightComponent";
+import Embrague from "./components/container/Engineering/Embrague";
+import KnuckleJoint from "./components/container/Engineering/KnuckleJoint";
+import MovingMechanismAssembly from "./components/container/Engineering/MovingMechanismAssembly";
+import RoboDog from "./components/container/Engineering/RoboDog";
+import SmartDustbin from "./components/container/Engineering/SmartDustbin";
+import Watch from "./components/container/Engineering/Watch";
 
 
 
@@ -3185,6 +3197,113 @@ root.render(
   }
 />
 
+<Route
+  path="/Mjig"
+  element={
+    <Protected>
+      <MortisingJig/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/woodstove"
+  element={
+    <Protected>
+      <WoodBurningHeatingStove/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/AVSA"
+  element={
+    <Protected>
+      <AntiVibrationShockAbsorber/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/sgmotor"
+  element={
+    <Protected>
+      <SGServoMotor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/springtool"
+  element={
+    <Protected>
+      <SpringChannelConnectionTool/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ELC"
+  element={
+    <Protected>
+      <ElectricLightComponent/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/embrague"
+  element={
+    <Protected>
+      <Embrague/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/knucklejoint"
+  element={
+    <Protected>
+      <KnuckleJoint/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/moveMA"
+  element={
+    <Protected>
+      <MovingMechanismAssembly/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/rdog"
+  element={
+    <Protected>
+      <RoboDog/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/smartdust"
+  element={
+    <Protected>
+      <SmartDustbin/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/watch"
+  element={
+    <Protected>
+      <Watch/>
+    </Protected>
+  }
+/>
 
 
 
