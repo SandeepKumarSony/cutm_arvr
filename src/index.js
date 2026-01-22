@@ -336,6 +336,15 @@ import MovingMechanismAssembly from "./components/container/Engineering/MovingMe
 import RoboDog from "./components/container/Engineering/RoboDog";
 import SmartDustbin from "./components/container/Engineering/SmartDustbin";
 import Watch from "./components/container/Engineering/Watch";
+import ThermAirBurner from "./components/container/Engineering/ThermAirBurner";
+import Warmer from "./components/container/Engineering/Warmer";
+import Rover from "./components/container/Engineering/Rover";
+import JoystcikRB from "./components/container/Engineering/JoystcikRB";
+import V10EngineAssembly from "./components/container/Engineering/VEngineAssembly";
+import VEngineAssembly from "./components/container/Engineering/VEngineAssembly";
+import Absor from "./components/container/Engineering/Absor";
+import HotRollingMachine from "./components/container/Engineering/HotRollingMachine";
+import MastrenaCoffeeMachine from "./components/container/Engineering/MastrenaCoffeeMachine";
 
 
 
@@ -3305,6 +3314,77 @@ root.render(
   }
 />
 
+<Route
+  path="/airburner"
+  element={
+    <Protected>
+      <ThermAirBurner/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/warmer"
+  element={
+    <Protected>
+      <Warmer/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/rover"
+  element={
+    <Protected>
+      <Rover/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/joystick"
+  element={
+    <Protected>
+      <JoystcikRB/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/VEA"
+  element={
+    <Protected>
+      <VEngineAssembly/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/absor"
+  element={
+    <Protected>
+      <Absor/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/hrm"
+  element={
+    <Protected>
+      <HotRollingMachine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/mcm"
+  element={
+    <Protected>
+      <MastrenaCoffeeMachine/>
+    </Protected>
+  }
+/>
 
 
 
