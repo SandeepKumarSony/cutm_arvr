@@ -340,11 +340,20 @@ import ThermAirBurner from "./components/container/Engineering/ThermAirBurner";
 import Warmer from "./components/container/Engineering/Warmer";
 import Rover from "./components/container/Engineering/Rover";
 import JoystcikRB from "./components/container/Engineering/JoystcikRB";
-import V10EngineAssembly from "./components/container/Engineering/VEngineAssembly";
 import VEngineAssembly from "./components/container/Engineering/VEngineAssembly";
 import Absor from "./components/container/Engineering/Absor";
 import HotRollingMachine from "./components/container/Engineering/HotRollingMachine";
 import MastrenaCoffeeMachine from "./components/container/Engineering/MastrenaCoffeeMachine";
+import BenchVise from "./components/container/Engineering/BenchVise";
+import BikeSuspensionSystem from "./components/container/Engineering/BikeSuspensionSystem";
+import OptimaProjector from "./components/container/Engineering/OptimaProjector";
+import CameraChipTM from "./components/container/Engineering/CameraChipTM";
+import SheetMetalRollingMachine from "./components/container/Engineering/SheetMetalRollingMachine";
+import ArtilleryLedLightBoard from "./components/container/Engineering/ArtilleryLedLightBoard";
+import SquarePCB from "./components/container/Engineering/SquarePCB";
+import ElbowEngine from "./components/container/Engineering/ElbowEngine";
+import GearedHypocycliodalSteamEngine from "./components/container/Engineering/GearedHypocycliodalSteamEngine";
+import PCBModuleMotorDriver from "./components/container/Engineering/PCBModuleMotorDriver";
 
 
 
@@ -3386,11 +3395,95 @@ root.render(
   }
 />
 
+<Route
+  path="/benchvise"
+  element={
+    <Protected>
+      <BenchVise/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/BSS"
+  element={
+    <Protected>
+      <BikeSuspensionSystem/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/optimap"
+  element={
+    <Protected>
+      <OptimaProjector/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/camerachip"
+  element={
+    <Protected>
+      <CameraChipTM/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/smrm"
+  element={
+    <Protected>
+      <SheetMetalRollingMachine/>
+    </Protected>
+  }
+/>
 
+<Route
+  path="/artillery"
+  element={
+    <Protected>
+      <ArtilleryLedLightBoard/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/squarepcb"
+  element={
+    <Protected>
+      <SquarePCB/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/elbowe"
+  element={
+    <Protected>
+      <ElbowEngine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/ghse"
+  element={
+    <Protected>
+      <GearedHypocycliodalSteamEngine/>
+    </Protected>
+  }
+/>
+
+<Route
+  path="/pcbmotord"
+  element={
+    <Protected>
+      <PCBModuleMotorDriver/>
+    </Protected>
+  }
+/>
 
 
 
